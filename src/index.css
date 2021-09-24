@@ -1,0 +1,192 @@
+
+
+
+
+
+/* 
+RAECT WEBSITE PROJECT  */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap');
+
+.active_menu{
+  font-weight: bold;
+  border-bottom: 1px solid orange;
+  color: aqua;
+  font-family: 'Baloo Bhaina 2', cursive;
+  
+}
+.header-img img{
+  width: 22rem;
+  margin-top: 5em;
+}
+@media screen and (max-width:840px) {
+  .header-img img{
+    width: 10rem;
+   position: absolute;
+   right: 13rem;
+   margin-top: 3em;
+  }
+}
+
+.section{
+  display: flex;
+}
+.box{
+  width: 40%;
+  margin-top: 15em;
+  margin-left: 15em;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+@media screen and (max-width:1000px) {
+  .box{
+    margin-top: 55vh;
+    text-align: center;
+    margin-left: 6rem;
+    
+  }
+  
+}
+
+
+
+.btn{
+  border-radius: 20px;
+  font-family: 'Baloo Bhaina 2', cursive;
+ 
+}
+
+@media screen and (max-width:1000px) {
+   .btn{
+     padding: 5px 5px;
+     font-size: 10px;
+   }
+}
+
+.h3-title{
+  color: grey;
+  font-size: 1.6rem;
+  font-family: 'Baloo Bhaina 2', cursive;
+  
+}
+@media screen and (max-width:1000px)  {
+  .h3-title{
+    font-size: 20px;
+  }
+}
+.sharma{
+  color: rgb(52, 174, 250);
+}
+
+.animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.card{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+  width: 38vh;
+  text-align: center;
+  
+ 
+}
+.cards{
+   display: grid;
+  grid-template-columns: repeat(3,2fr);  
+  row-gap: 5vh;
+  margin-left: 10vh;
+  
+}
+  @media screen and (max-width:1000px) {
+       .cards{
+        display: flex;
+        flex-direction: column;
+        
+       }
+  }
+  
+
+
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.card-img-top{
+  width: 286px;
+  border-radius: 5px;
+}
+@media screen and (max-width:2720px) {
+   .card-img-top{
+     width: 38vh;
+   }
+}
+
+.services{
+  text-align: center;
+}
+.card{
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.4);
+  
+}
+.text-center1{
+  width: 60vh;
+   margin-left: 70vh;
+   margin-right: 70vh;
+  
+}
+@media screen and (max-width:800px){
+     .text-center1{
+      width: 57vh;
+      margin-left: 7vh;
+      margin-right: 70vh;
+     }
+}
+
+
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Baloo Bhaina 2', cursive;
+ 
+}
+
+
+.logo{
+  color: rgb(49, 171, 247);
+}
+.h1-title{
+  color: rgb(73, 182, 250);
+}  
+@media screen and (max-width:1000px) {
+  .h1-title{
+    font-size: 25px;
+  }
+}
+
+
+
